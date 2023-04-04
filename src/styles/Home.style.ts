@@ -63,11 +63,6 @@ export const GridContainer = styled.div`
     gap: 20px;
     justify-content: center;
   }
-  /* @media (min-width: 1200px) {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 20px 40px;
-  } */
 `;
 
 export const Item = styled.div`
