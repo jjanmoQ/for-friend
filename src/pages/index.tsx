@@ -1,5 +1,5 @@
-import assignments from '../constants/junior_assignment.json';
-import Logo from './icons/Logo';
+import assignments from '@/constants/junior_assignment.json';
+import Logo from '@/icons/Logo';
 import * as S from './style';
 
 interface AssignmentData {
