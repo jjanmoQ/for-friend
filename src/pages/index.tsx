@@ -1,6 +1,7 @@
 import assignments from '@/constants/junior_assignment.json';
 import Logo from '@/icons/Logo';
 import * as S from '@/styles/Home.style';
+import Image from 'next/image';
 
 interface AssignmentData {
   url: string;
@@ -15,7 +16,13 @@ export default function Home() {
   return (
     <S.Container>
       <S.Title>
-        Welcome to SchoolLive <Logo />
+        <div className="allen">
+          Hi Everett Allen
+          <Image src={'/allen.png'} width={50} height={50} alt="allen" />
+        </div>
+        <div className="schoollive">
+          Welcome to SchoolLive <Logo />
+        </div>
       </S.Title>
       <S.GridContainer>
         {assignmentData.map((data, index) =>
