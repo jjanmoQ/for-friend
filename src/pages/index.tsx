@@ -1,6 +1,6 @@
 import assignments from '@/constants/junior_assignment.json';
 import Logo from '@/icons/Logo';
-import * as S from './style';
+import * as S from '@/styles/Home.style';
 
 interface AssignmentData {
   url: string;
