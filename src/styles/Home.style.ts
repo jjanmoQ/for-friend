@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100vw;
@@ -51,7 +51,7 @@ export const Title = styled.h1`
 
 export const GridContainer = styled.div`
   width: 80%;
-  margin: auto;
+  margin: 60px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,16 +63,16 @@ export const GridContainer = styled.div`
     gap: 20px;
     justify-content: center;
   }
-  @media (min-width: 1200px) {
+  /* @media (min-width: 1200px) {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px 40px;
-  }
+  } */
 `;
 
 export const Item = styled.div`
-  width: 320px;
-  height: 200px;
+  width: 480px;
+  height: 320px;
 
   display: flex;
   justify-content: center;

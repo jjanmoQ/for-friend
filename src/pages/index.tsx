@@ -1,5 +1,4 @@
 import assignments from '@/constants/junior_assignment.json';
-import Logo from '@/icons/Logo';
 import * as S from '@/styles/Home.style';
 import Image from 'next/image';
 
@@ -17,7 +16,7 @@ export default function Home() {
     <S.Container>
       <S.Title>
         <div className="allen">
-          Hello Everett Allen 💕
+          Hello Allen Family 💕
           <Image src={'/allen.png'} width={50} height={50} alt="allen" />
         </div>
         <div className="schoollive">Welcome to SchoolLive!!</div>
@@ -30,7 +29,7 @@ export default function Home() {
             </S.Item>
           ) : (
             <S.Item key={index}>
-              <video src={data.url} width={320} height={180} controls />
+              <video src={data.url} width={480} height={300} controls />
             </S.Item>
           )
         )}
