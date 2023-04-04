@@ -1,4 +1,5 @@
 import assignments from '../constants/junior_assignment.json';
+import Logo from './icons/Logo';
 import * as S from './style';
 
 interface AssignmentData {
@@ -13,7 +14,9 @@ export default function Home() {
 
   return (
     <S.Container>
-      <S.Title>Welcome to School Live</S.Title>
+      <S.Title>
+        Welcome to SchoolLive <Logo />
+      </S.Title>
       <S.GridContainer>
         {assignmentData.map((data, index) =>
           data.mime_type.includes('audio') ? (

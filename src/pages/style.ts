@@ -1,13 +1,36 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
+export const packageGradient = (defaultColor: string, gradient?: string) =>
+  gradient
+    ? css`
+        background: ${gradient};
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      `
+    : css`
+        color: ${defaultColor};
+      `;
 
 export const Container = styled.div`
   width: 100%;
   padding: 20px 0;
+  background: #e3eeff;
 `;
 export const Title = styled.h1`
   font-size: 40px;
-  color: #fd5f7c;
   text-align: center;
+
+  ${packageGradient(
+    '#2959FF',
+    `linear-gradient(
+      90.31deg,
+      rgb(41, 89, 255) -1.39%,
+      rgb(97, 208, 215) 79.16%
+    )`
+  )}
+  font-weight: 700;
+  font-size: 3rem;
 `;
 
 export const GridContainer = styled.div`
