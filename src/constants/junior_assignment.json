@@ -5,7 +5,12 @@
       "mime_type": "audio/webm"
     }
   },
-
+  {
+    "data": {
+      "url": "https://public.realclass.co.kr/userdata/PUBLIC/assignment_log/399869/454186/2005/570/327/1673947078_d346fc6f398bb0e1_1.webm",
+      "mime_type": "video/webm"
+    }
+  },
   {
     "data": {
       "url": "https://public.realclass.co.kr/userdata/PUBLIC/assignment_log/374744/427205/2005/570/327/1667298904_d14b2357c4c8cb04_1.webm",
@@ -18,20 +23,6 @@
       "mime_type": "video/x-matroska"
     }
   },
-
-  {
-    "data": {
-      "url": "https://public.realclass.co.kr/userdata/PUBLIC/assignment_log/380173/432982/2005/570/327/1667471704_b563008665a963a7_1.mp4",
-      "mime_type": "video/mp4"
-    }
-  },
-
-  {
-    "data": {
-      "url": "https://public.realclass.co.kr/userdata/PUBLIC/assignment_log/342644/391676/2005/570/327/1667559648_33c77ab24e29abd5_1.webm",
-      "mime_type": "audio/webm"
-    }
-  },
   {
     "data": {
       "url": "https://public.realclass.co.kr/userdata/PUBLIC/assignment_log/389425/442954/2005/570/327/1667569113_95ca0bc0a6c698fe_1.webm",
@@ -40,15 +31,8 @@
   },
   {
     "data": {
-      "url": "https://public.realclass.co.kr/userdata/PUBLIC/assignment_log/342779/391895/2005/570/327/1667699982_434c936de037e717_1.webm",
-      "mime_type": "video/webm"
-    }
-  },
-
-  {
-    "data": {
-      "url": "https://public.realclass.co.kr/userdata/PUBLIC/assignment_log/399869/454186/2005/570/327/1673947078_d346fc6f398bb0e1_1.webm",
-      "mime_type": "video/webm"
+      "url": "https://public.realclass.co.kr/userdata/PUBLIC/assignment_log/380173/432982/2005/570/327/1667471704_b563008665a963a7_1.mp4",
+      "mime_type": "video/mp4"
     }
   }
 ]
