@@ -17,12 +17,10 @@ export default function Home() {
     <S.Container>
       <S.Title>
         <div className="allen">
-          Hi Everett Allen
+          Hello Everett Allen 💕
           <Image src={'/allen.png'} width={50} height={50} alt="allen" />
         </div>
-        <div className="schoollive">
-          Welcome to SchoolLive <Logo />
-        </div>
+        <div className="schoollive">Welcome to SchoolLive!!</div>
       </S.Title>
       <S.GridContainer>
         {assignmentData.map((data, index) =>

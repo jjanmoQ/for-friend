@@ -6,7 +6,7 @@ export const Container = styled.div`
   background: #e3eeff;
 `;
 export const Title = styled.h1`
-  font-size: 40px;
+  font-size: 24px;
   text-align: center;
 
   background: linear-gradient(
@@ -18,7 +18,6 @@ export const Title = styled.h1`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  font-size: 3rem;
 
   .allen {
     display: flex;
@@ -32,12 +31,19 @@ export const Title = styled.h1`
     align-items: center;
 
     svg {
-      margin-left: 20px;
+      margin-left: 14px;
     }
   }
   img {
-    margin-left: 20px;
+    margin-left: 14px;
     border-radius: 5px;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 40px;
   }
 `;
 
